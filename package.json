@@ -25,6 +25,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@types/three": "^0.134.0",
+    "angular-cli-ghpages": "^1.0.0",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "ngx-acuw": "^2.1.1",
