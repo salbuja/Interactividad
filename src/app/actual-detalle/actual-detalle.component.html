@@ -1,0 +1,40 @@
+<div class="parent" style="width:100%;height:500px;">
+  <div class="text1"><span STYLE="font-family:'Lucida'" style="color:#7F75FF;font-weight:bold;font-size: 26pt;text-align: center;">PERSONAJES ACTUALES</span> </div>
+  <hr>
+  <div class="parent" style="width:100%;height:500px;">
+    <img class="image1" src="/assets/images/fondo.jpg" style="float:left;width:100%;height:100%;object-fit:fill;" />
+
+    <div class="card" class="card1">
+      <img height="350px" src={{actual.image}} alt={{actual.name}}>
+    </div>
+    <div class="card" class="card2">
+      <mat-card-content> 
+        <h1>{{actual.name | uppercase}}</h1>
+      </mat-card-content>
+    </div>
+    <div class="card" class="card3">
+      <mat-card-content>
+        <p>{{actual.description}}</p>
+      </mat-card-content>
+    </div>
+
+    <div class="card" class="audio">
+      <audio src="https://dl.dropboxusercontent.com/s/9v0psowra7ekhxo/A%20Himitsu%20-%20In%20Love%20%28feat.%20Nori%29.flac?dl=0">
+      </audio>
+
+      <ngx-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="false"
+      muted="muted" [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" 
+      [displayArtist]="msaapDisplayArtist" [displayDuration]="msaapDisplayDuration"
+      [expanded]="false"  [displayVolumeControls]="msaapDisplayVolumeControls" [displayRepeatControls]="msaapDisplayRepeatControls" 
+      [disablePositionSlider]="msaapDisablePositionSlider"></ngx-audio-player>      
+      </div>
+
+      <div class="card" class="card4">
+      <mat-card-content>
+        <button mat-raised-button color=#7D41F2 (click)="goBack()">  Regresar  </button>
+      </mat-card-content>
+  </div>
+
+  </div>
+</div>
+ 
