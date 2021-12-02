@@ -28,7 +28,7 @@ export class HistoricoDetalleComponent implements OnInit {
   msaapPlaylist: Track[] = [
     {
         title: 'ejemplo',
-        link: 'assets/images/Musashi.mp3',
+        link: 'assets/audios/Musashi.mp3',
         artist: 'Artist'
     }    ]
   
