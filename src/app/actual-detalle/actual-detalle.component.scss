@@ -1,61 +1,67 @@
 .parent {
-    position: relative;
-    top: 35px;
-    left: 0;
-  }
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
+  position: relative;
+  top: 25px;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
 
-  }
-  .text1 {
-    position: absolute;
-    top: 5px;
-    left:440px;
-  }
+}
+.text1 {
+  position: relative;
+  top: 5px;
 
-  .card1 {
-    position: absolute;
-    top: 25px;
-    left:20px;
-    max-width: 500px;
-  }
+}
 
-  .card2 {
-    position: absolute;
-    top: 25px;
-    right:150px;
-    max-width: 500px;
-    border: 10px;
-    background-color: #7D41F2;
-    color: white;
-    border-radius: 5px;
-  }
+.card1 {
+  position: absolute;
+  top:5%;
+  left:5%;
+  max-width: 500px;
+  width: calc(30%);   height:100% ;
+}
 
-  .card3 {
-    position: absolute;
-    top: 115px;
-    right:150px;
-    max-width: 500px;
-    border: 10px;
-    background-color:white;
-    color:black;
-    border-radius: 5px;
-  }
+.card2 {
+  position: relative;
+  top:5%;
+  left:5%;
+/*  max-width: 500px;*/
+  height:25% ;
+  width: 10%;
+}
 
-  .card4 {
-    position: absolute;
-    bottom:  25px;
-    right:150px;
-    max-width: 500px;
-    border: 10px;
-    color:white;
-    border-radius: 5px;
-  }
+.card3 {
+  position: absolute;
+  top: 115px;
+  right:150px;
+  max-width: 500px;
+  border: 10px;
+  background-color:white;
+  color:black;
+  border-radius: 5px;
+}
 
-  .audio {
-    position: absolute;
-    bottom: 115px;
-    right:150px;
-  }
+.card4 {
+  position: absolute;
+  bottom:  15px;
+  right:120px;
+  max-width: 500px;
+  border: 10px;
+  color:white;
+  border-radius: 5px;
+}
+
+.audio {
+  position: absolute;
+  bottom: 25px;
+  right:500px;
+}
+
+.marco {
+  position: absolute;
+  top: 45px;
+  width: calc(100% - 70px);   height: calc(100% - 70px);
+  background-color: #36526a;
+}

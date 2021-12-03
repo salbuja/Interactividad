@@ -17,10 +17,10 @@ export const ACTUALES: Actual[] = [
         name: 'Hideaki Anno',
         image: 'assets/images/Hideaki Anno.png',
         description: 'Es un Animador y Director, conocido principalmente por la icónica serie Neon Genesis Evangelion, esta ha llegado a ser comparada como la Star wars japonesa por el impacto en la cultura popular que esta ha tenido tras su emisión, asi mismo Anno es reconocido afuera de la esfera del anime debido a su película Shin Godzilla a la cual se le fue otorgada el equivalente al Oscar Japonés.',
-        audios: [{
-            title: 'Hideaki Anno',
-            link: 'assets/audios/Hideaki Anno.mp3'
-        }]
+        audios: [
+            {title: 'Hideaki Anno',
+            link: 'assets/audios/Hideaki Anno.mp3'}
+            ]
     },
     {
         id: '2',

@@ -24,7 +24,7 @@ msaapDisplayVolumeControls = false;
 msaapDisplayRepeatControls = false;
 msaapDisplayArtist = false;
 msaapDisplayDuration = false;
-msaapDisablePositionSlider = true;
+msaapDisablePositionSlider = false;
 msaapPlaylist: Track[]; 
 
 
