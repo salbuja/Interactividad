@@ -1,6 +1,6 @@
 .parent {
     position: relative;
-    top: 35px;
+    top: 25px;
     left: 0;
   }
   .image1 {
@@ -10,27 +10,26 @@
 
   }
   .text1 {
-    position: absolute;
+    position: relative;
     top: 5px;
-    left:440px;
+  
   }
 
   .card1 {
     position: absolute;
-    top: 25px;
-    left:20px;
+    top:5%;
+    left:5%;
     max-width: 500px;
+    width: calc(30%);   height:100% ;
   }
 
   .card2 {
-    position: absolute;
-    top: 25px;
-    right:150px;
-    max-width: 500px;
-    border: 10px;
-    background-color: #7D41F2;
-    color: white;
-    border-radius: 5px;
+    position: relative;
+    top:5%;
+    left:5%;
+  /*  max-width: 500px;*/
+    height:25% ;
+    width: 10%;
   }
 
   .card3 {
@@ -46,8 +45,8 @@
 
   .card4 {
     position: absolute;
-    bottom:  25px;
-    right:150px;
+    bottom:  15px;
+    right:120px;
     max-width: 500px;
     border: 10px;
     color:white;
@@ -56,6 +55,13 @@
 
   .audio {
     position: absolute;
-    bottom: 115px;
-    right:150px;
+    bottom: 25px;
+    right:500px;
+  }
+
+  .marco {
+    position: absolute;
+    top: 45px;
+    width: calc(100% - 70px);   height: calc(100% - 70px);
+    background-color: #36526a;
   }
