@@ -25,12 +25,7 @@ msaapDisplayRepeatControls = false;
 msaapDisplayArtist = false;
 msaapDisplayDuration = false;
 msaapDisablePositionSlider = true;
-msaapPlaylist: Track[] = [
-  {
-      title: 'ejemplo',
-      link: 'assets/audios/Musashi.mp3',
-      artist: 'Artist'
-  }    ]
+msaapPlaylist: Track[]; 
 
 
   actual:Actual;
@@ -42,6 +37,7 @@ msaapPlaylist: Track[] = [
   ngOnInit(): void {
     const id  = this.route.snapshot.params['id'];
     this.actual = this.actualservice.getActual(id);
+    this.msaapPlaylist=this.actual.audios
   }
   goBack(): void {
     this.location.back();

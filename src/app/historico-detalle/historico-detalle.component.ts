@@ -25,14 +25,9 @@ export class HistoricoDetalleComponent implements OnInit {
   msaapDisplayArtist = false;
   msaapDisplayDuration = false;
   msaapDisablePositionSlider = true;
-  msaapPlaylist: Track[] = [
-    {
-        title: 'ejemplo',
-        link: 'assets/audios/Musashi.mp3',
-        artist: 'Artist'
-    }    ]
+  msaapPlaylist: Track[]; 
   
-      historico:Historico;
+  historico:Historico;
 
   constructor(private historicoservice:HistoricoService,
     private route: ActivatedRoute,
@@ -41,6 +36,8 @@ export class HistoricoDetalleComponent implements OnInit {
   ngOnInit(): void {
     const id  = this.route.snapshot.params['id'];
     this.historico = this.historicoservice.getHistorico(id);
+    this.msaapPlaylist=this.historico.audios
+    
   }
 
   goBack(): void {
