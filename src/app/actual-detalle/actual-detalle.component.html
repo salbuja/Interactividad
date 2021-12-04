@@ -26,14 +26,15 @@
     </div>
 
     <div class="card" class="audio">
-      <audio src="https://dl.dropboxusercontent.com/s/9v0psowra7ekhxo/A%20Himitsu%20-%20In%20Love%20%28feat.%20Nori%29.flac?dl=0">
+      <audio src="">
       </audio>
 
       <ngx-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="false"
       muted="muted" [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" 
       [displayArtist]="msaapDisplayArtist" [displayDuration]="msaapDisplayDuration"
       [expanded]="false"  [displayVolumeControls]="msaapDisplayVolumeControls" [displayRepeatControls]="msaapDisplayRepeatControls" 
-      [disablePositionSlider]="msaapDisablePositionSlider"></ngx-audio-player>      
+      [disablePositionSlider]="msaapDisablePositionSlider"
+      (trackEnded)="Ended()"></ngx-audio-player>      
     </div>
 
       <div class="card" class="card4">

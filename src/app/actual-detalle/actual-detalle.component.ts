@@ -21,11 +21,16 @@ msaapDisplayTitle = false;
 msaapDisplayPlayList = false;
 msaapPageSizeOptions = [2,4,6];
 msaapDisplayVolumeControls = false;
-msaapDisplayRepeatControls = false;
+msaapDisplayRepeatControls = true;
 msaapDisplayArtist = false;
 msaapDisplayDuration = false;
 msaapDisablePositionSlider = false;
 msaapPlaylist: Track[]; 
+
+currentTrack: Track = null;
+
+
+
 
 
   actual:Actual;
@@ -42,5 +47,12 @@ msaapPlaylist: Track[];
   goBack(): void {
     this.location.back();
   }
+  Ended(): void {
+    // example
+    console.log("Ingresa");
+    
+    //this.msaapPlaylist=this.actual.audios
+  }
+  
 }
 

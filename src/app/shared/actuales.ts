@@ -5,7 +5,7 @@ export const ACTUALES: Actual[] = [
         id: '0',
         name: 'Hirohiko Araki',
         image: 'assets/images/Hirohiko Araki.png',
-        description: 'Legendario mangaka creador de la igualmente legendaria serie Jojo’s Bizarre Adventure, que lleva en publicación por 34 años por Shueisha, reconocido como uno de los más revolucionarios mangas de su época y también de la actualidad, y siendo uno de los pocos mangakas que han colaborado con tanto marcas de moda como Gucci, como con el museo del Louvre.',
+        description:'Legendario mangaka creador de la igualmente legendaria serie Jojo’s Bizarre Adventure, que lleva en publicación por 34 años por Shueisha, reconocido como uno de los más revolucionarios mangas de su época y también de la actualidad, y siendo uno de los pocos mangakas que han colaborado con tanto marcas de moda como Gucci, como con el museo del Louvre.',
         audios: [{
             title: 'Hirohiko Araki',
             link: 'assets/audios/Hirohiko Araki.mp3'

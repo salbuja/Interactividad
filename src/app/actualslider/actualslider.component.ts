@@ -11,33 +11,33 @@ export class ActualsliderComponent implements OnInit {
     {
       textColor: '#000',
       logo: '',
-      title: 'NEW COLLAB: COCA-COLA X TIMEX',
-      description: 'Two iconic American brands have come together to celebrate harmony with new watches in our 1971 Unity Collection.',
-      backgroundExpanded: `url('https://us.coca-cola.com/store/media/wysiwyg/COKE-421-Desktop-Expanded.png')`,
-      backgroundCollapsed: `url('https://us.coca-cola.com/store/media/wysiwyg/COKE-421-Desktop-Collapsed.png')`,
-      ctaText: 'SHOP NOW',
-      ctaLink: 'https://adnanhalilovic.com',
+      title: 'Hirohiko Araki',
+      description: 'Legendario mangaka creador de la igualmente legendaria serie Jojo’s Bizarre Adventure.',
+      backgroundExpanded: `url('assets/images/1A-Expanded.png')`,
+      backgroundCollapsed: `url('assets/images/1A-Collapsed.png')`,
+      ctaText: 'Detalles',
+      ctaLink: 'actualDetalle/0',
     },
     {
-      textColor: "#fff",
-      logo: "https://us.coca-cola.com/store/media/wysiwyg/coke-morphe.png",
-      title: "",
-      description: 'Explore our new line of Morphe products burstling with color and attitide, inspired by Cherry Coke.',
-      backgroundExpanded: `url('https://us.coca-cola.com/store/media/wysiwyg/coke-400-desktop-expanded.png')`,
-      backgroundCollapsed: `url('https://us.coca-cola.com/store/media/wysiwyg/coke-400-desktop-collapsed.png')`,
-      ctaText: 'DISCOVER',
-      ctaLink: 'https://adnanhalilovic.com'
-    },
-    {
-      textColor: "#fff",
+      textColor: "#000",
       logo: "",
-      title: "PERSONALIZE YOUR COKE",
-      description: 'With custom bottle designs for every occasion',
-      backgroundExpanded: `url('https://us.coca-cola.com/store/media/wysiwyg/coke-406-desktop-expanded_1.png')`,
-      backgroundCollapsed: `url('https://us.coca-cola.com/store/media/wysiwyg/coke-406-desktop-collapsed_1.png')`,
-      ctaText: 'SHOP NOW',
-      ctaLink: 'https://adnanhalilovic.com'
-    }
+      title: "Hideaki Anno",
+      description: 'Es un Animador y Director, conocido principalmente por la icónica serie Neon Genesis Evangelion.',
+      backgroundExpanded: `url('assets/images/2A-Expanded.png')`,
+      backgroundCollapsed: `url('assets/images/2A-Collapsed.png')`,
+      ctaText: 'Detalles',
+      ctaLink: 'actualDetalle/1'
+    },
+    {
+      textColor: "#000",
+      logo: "",
+      title: "Naomi Osaka",
+      description: 'Hija de un padre haitiano y una madre japonesa, Osaka lleva entrenando casi toda su vida.',
+      backgroundExpanded: `url('assets/images/3A-Expanded.png')`,
+      backgroundCollapsed: `url('assets/images/3A-Collapsed.png')`,
+      ctaText: 'Detalles',
+      ctaLink: 'actualDetalle/2'
+     }
   ]
   constructor() { }
 
