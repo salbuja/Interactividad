@@ -5,6 +5,7 @@ import { ActualDetalleComponent } from '../actual-detalle/actual-detalle.compone
 import { HistoricoComponent } from '../historico/historico.component';
 import { HistoricoDetalleComponent } from '../historico-detalle/historico-detalle.component';
 import { HomeComponent } from '../home/home.component';
+import { HistoricosliderComponent } from '../historicoslider/historicoslider.component';
 //import { ContactComponent } from '../contact/contact.component';
 
 export const routes: Routes = [
@@ -14,6 +15,7 @@ export const routes: Routes = [
     { path: 'actualDetalle/:id',     component: ActualDetalleComponent },
     { path: 'historico',     component: HistoricoComponent },
     { path: 'historicoDetalle/:id',     component: HistoricoDetalleComponent },
+    { path: 'historicoslider',     component: HistoricosliderComponent },
 //    { path: 'contactus',     component: ContactComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' }
   ];

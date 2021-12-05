@@ -32,6 +32,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { RouterModule } from '@angular/router';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { ActualsliderComponent } from './actualslider/actualslider.component';
+import { HistoricosliderComponent } from './historicoslider/historicoslider.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ActualsliderComponent } from './actualslider/actualslider.component';
     HomeComponent,
     HistoricoDetalleComponent,
     ActualDetalleComponent,
-    ActualsliderComponent
+    ActualsliderComponent,
+    HistoricosliderComponent
   ],
   imports: [ RouterModule,
     BrowserModule,
