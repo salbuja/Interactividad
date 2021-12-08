@@ -29,7 +29,7 @@ $transitionDuration: 0.5s;
       justify-content: flex-start;
       height: inherit;
       .content {
-        margin-left: 36%;
+        margin-left: 43%;
         padding: 35px;
         width: 250px;
         display: flex;
@@ -83,14 +83,17 @@ $transitionDuration: 0.5s;
     }
     &:not(.active) {
       .title {
+        position: relative;
         color: #fff;
+        align-items: left;
+        left: -80px;
       }
     }
 
     &.active {
       width: 946px;
       // If you would like to have dynamic images width uncomment the following line
-       width: 60%;
+      // width: 60%;
 
       .content-wrapper {
         .content {
