@@ -1,11 +1,27 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="toolbar" role="banner">
-<div class="spacer"></div>
 <mat-toolbar color="primary">
-    <span><img src="./assets/images/logo.png" height=30 ></span>
-    <a mat-button routerLink="home" routerLinkActive="active"><span class="fa fa-home fa-lg" style="color:white;font-weight:bold"></span><span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Home</span></a>
-    <a mat-button routerLink="historicoslider" routerLinkActive="active"><span class="fa fa-address-card fa-lg" style="color:white;font-weight:bold"></span><span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Personajes Históricos </span></a>
-    <a mat-button routerLink="actualslider" routerLinkActive="active"><span class="fa fa-address-card fa-lg" style="color:white;font-weight:bold"></span><span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Personajes Actuales </span></a>
-    
+  <div fxShow="true" fxHide.lt-md fxFlex fxLayout>
+    <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+    <div fxFlex>
+      <span><img src="./assets/images/logo.png" height=40 ></span>
+    </div>
+    <div fxFlex fxLayoutAlign="left center">
+      <span class="fa fa-home fa-lg"  style="color:white;font-weight:bold"></span>
+      <a mat-button routerLink="home" routerLinkActive="active">
+      <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Home</span></a>
+    </div>
+    <div fxFlex fxLayoutAlign="left center">
+        <span><img src="./assets/images/logo1.png" height=40 ></span>
+        <a mat-button routerLink="historicoslider" routerLinkActive="active">
+        <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold;"> Personajes Históricos </span></a>
+    </div> 
+    <div fxFlex fxLayoutAlign="center center">
+      <span><img src="./assets/images/logo2.png" height=40 ></span>
+      <a mat-button routerLink="actualslider" routerLinkActive="active">
+      <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Personajes Actuales </span></a>
+    </div>
+  </div>
   </mat-toolbar>
 </div>
 

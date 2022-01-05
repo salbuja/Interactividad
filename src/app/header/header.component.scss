@@ -1,0 +1,23 @@
+a:hover {
+    letter-spacing: 1px;
+    color: yellow;
+  }
+
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    
+    margin: 1px 1px;
+  }
