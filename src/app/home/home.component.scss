@@ -35,19 +35,19 @@ display: flex;
 .boton1 {
 position: absolute;
 border: none;
-color: white;
-padding: 12px 60px;
-border-radius: 15px;
-text-align: center;
-//text-decoration: none;
+//color: white;
+//padding: 12px 60px;
+//border-radius: 15px;
+text-align: left;
+text-decoration: none;
 display: inline-block;
-font-size: 16px;
-font-weight: 600;
-background-color: #ac2569;
+//font-size: 16px;
+//font-weight: 600;
+//background-color: #ac2569;
 
 &:hover {
   cursor: pointer;
-  background-color: lighten($color: #ac2569, $amount: 20);
+  //background-color: lighten($color: #ac2569, $amount: 20);
 }
 
 
