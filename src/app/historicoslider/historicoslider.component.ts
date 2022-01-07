@@ -12,7 +12,7 @@ export class HistoricosliderComponent implements OnInit {
       textColor: '#000',
       logo: '',
       title: 'Oda Nobunaga',
-      description: 'Uno de los Señores Feudales más importantes de la historia de Japón.',
+      description: 'Oda Nobunaga fue un destacado señor feudal. En el año 1560 se enfrentó con un numeroso ejército (estimado en 40000 soldados samurái), con tan solo 3000 soldados durante la batalla de Okehazama. Gracias a un ataque sorpresa salió victorioso, lo que puso a Nobunaga en la cima del poder militar del país.',
       backgroundExpanded: `url('assets/images/1H-Expanded.png')`,
       backgroundCollapsed: `url('assets/images/1H-Collapsed.png')`,
       ctaText: 'Detalles',
