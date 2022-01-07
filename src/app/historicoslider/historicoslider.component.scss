@@ -31,7 +31,7 @@ $transitionDuration: 0.5s;
       .content {
         margin-left: 43%;
         padding: 35px;
-        width: 280px;
+        width: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -53,18 +53,18 @@ $transitionDuration: 0.5s;
 
         .cta {
           margin-top: 50px;
-          border-radius: 30px;
-          background-color: red;
+          border-radius: 15px;
+          background-color: #ac2569;
           color: #fff;
           text-decoration: none;
-          padding: 10px 40px;
-          font-size: 12px;
+          padding: 12px 60px;
+          font-size: 16px;
           font-weight: 600;
           display: none;
           z-index: 2;
           &:hover {
             cursor: pointer;
-            background-color: lighten($color: red, $amount: 20);
+            background-color: lighten($color: #ac2569, $amount: 20);
           }
         }
 

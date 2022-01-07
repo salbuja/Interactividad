@@ -26,7 +26,7 @@
 }
 
 .card1 {
-  position: absolute;
+  position: relative;
   top:5%;
   left:5%;
   max-width: 500px;
@@ -44,7 +44,7 @@
 }
 
 .card3 {
-  position: absolute;
+  position: relative;
   top: 115px;
   right:150px;
   max-width: 500px;
@@ -55,7 +55,7 @@
 }
 
 .card4 {
-  position: absolute;
+  position: relative;
   bottom:  15px;
   right:120px;
   max-width: 500px;
@@ -65,7 +65,7 @@
 }
 
 .audio {
-  position: absolute;
+  position: relative;
   right:250px;
   width: calc(45% - 120px);
   bottom:  15px;
@@ -73,8 +73,8 @@
 }
 
 .marco {
-  position: absolute;
-  top: 45px;
+  position: relative;
+  top: 10px;
   width: calc(100% - 70px);   height: calc(100% - 70px);
   background-color: #36526a;
 }

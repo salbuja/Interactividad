@@ -3,10 +3,9 @@
 <mat-toolbar color="primary">
   <div fxShow="true" fxHide.lt-md fxFlex fxLayout>
     <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-    <div fxFlex>
+    <div fxFlex fxLayoutAlign="start center">
       <span><img src="./assets/images/logo.png" height=40 ></span>
-    </div>
-    <div fxFlex fxLayoutAlign="left center">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <span class="fa fa-home fa-lg"  style="color:white;font-weight:bold"></span>
       <a mat-button routerLink="home" routerLinkActive="active">
       <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Home</span></a>
@@ -16,7 +15,7 @@
         <a mat-button routerLink="historicoslider" routerLinkActive="active">
         <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold;"> Personajes Históricos </span></a>
     </div> 
-    <div fxFlex fxLayoutAlign="center center">
+    <div fxFlex fxLayoutAlign="end end">
       <span><img src="./assets/images/logo2.png" height=40 ></span>
       <a mat-button routerLink="actualslider" routerLinkActive="active">
       <span STYLE="font-family:'Lucida'" style="color:white;font-weight:bold"> Personajes Actuales </span></a>

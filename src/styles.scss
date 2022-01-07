@@ -26,18 +26,8 @@ max-height: device-height;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 8px 0;
-  }
 
-  p {
-    margin: 0;
-  }
+
 
   .spacer {
     flex: 1;
@@ -45,8 +35,8 @@ max-height: device-height;
 
   .content {
     display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
+   // margin: 82px auto 32px;
+   // padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
     align-items: center;
@@ -57,9 +47,7 @@ max-height: device-height;
     width: auto;
   }
 
-  svg.material-icons:not(:last-child) {
-    margin-right: 8px;
-  }
+
 
   .card svg.material-icons path {
     fill: #888;
@@ -69,18 +57,18 @@ max-height: device-height;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 16px;
+    //margin-top: 16px;
   }
 
   .card {
     all: unset;
-    border-radius: 4px;
+    border-radius: 0px;
     border: 1px solid #eee;
     background-color: #fafafa;
     height: 40px;
     width: 200px;
-    margin: 0 8px 16px;
-    padding: 16px;
+    //margin: 0 8px 16px;
+    //padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -89,9 +77,6 @@ max-height: device-height;
     line-height: 24px;
   }
 
-  .card-container .card:not(:last-child) {
-    margin-right: 0;
-  }
 
   .card.card-small {
     height: 16px;
@@ -119,10 +104,6 @@ max-height: device-height;
     width: auto;
     min-width: 30%;
     position: relative;
-  }
-
-  .card.card.highlight-card span {
-    margin-left: 60px;
   }
 
   svg#rocket {
@@ -156,8 +137,8 @@ max-height: device-height;
     width: 80%;
     max-width: 600px;
     border-radius: 6px;
-    padding-top: 45px;
-    margin-top: 8px;
+   // padding-top: 45px;
+    //margin-top: 8px;
     overflow: hidden;
     background-color: rgb(15, 15, 16);
   }
@@ -173,22 +154,22 @@ max-height: device-height;
     width: 100%;
     font-size: 2rem;
     line-height: 0;
-    padding: 14px 0;
+    //padding: 14px 0;
     text-indent: 4px;
   }
 
   .terminal pre {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     color: white;
-    padding: 0 1rem 1rem;
-    margin: 0;
+    //padding: 0 1rem 1rem;
+    //margin: 0;
   }
 
   .circle-link {
     height: 40px;
     width: 40px;
     border-radius: 40px;
-    margin: 8px;
+    //margin: 8px;
     background-color: white;
     border: 1px solid #eeeeee;
     display: flex;
@@ -205,7 +186,7 @@ max-height: device-height;
   }
 
   footer {
-    margin-top: 8px;
+   // margin-top: 8px;
     display: flex;
     align-items: center;
     line-height: 20px;
@@ -221,11 +202,11 @@ max-height: device-height;
     display: flex;
     align-items: center;
     font-size: 12px;
-    padding: 3px 10px;
+   // padding: 3px 10px;
     border: 1px solid rgba(27,31,35,.2);
     border-radius: 3px;
     background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-    margin-left: 4px;
+   // margin-left: 4px;
     font-weight: 600;
   }
 
@@ -238,7 +219,7 @@ max-height: device-height;
   .github-star-badge .material-icons {
     height: 16px;
     width: 16px;
-    margin-right: 4px;
+   // margin-right: 4px;
   }
 
   svg#clouds {
@@ -258,11 +239,7 @@ max-height: device-height;
 
     .card:not(.highlight-card) {
       height: 16px;
-      margin: 8px 0;
-    }
-
-    .card.highlight-card span {
-      margin-left: 72px;
+    //  margin: 8px 0;
     }
 
     svg#rocket-smoke {
