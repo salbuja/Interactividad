@@ -1,6 +1,6 @@
 .parent {
 position: relative;
-top: 35px;
+top: 0px;
 left: 0;
 margin: 0;
 padding: 0;
@@ -10,8 +10,9 @@ padding: 0;
 position: relative;
 top: 0;
 left: 0;
-left: 0;
 width: device-width;
+background-size: cover; 
+
 }
 
 .image2 {
@@ -31,16 +32,25 @@ display: flex;
   align-items: center;
 }
 
-
 .boton1 {
 position: absolute;
 border: none;
 color: white;
-padding: 15px 15px;
+padding: 12px 60px;
+border-radius: 15px;
 text-align: center;
-text-decoration: none;
+//text-decoration: none;
 display: inline-block;
 font-size: 16px;
+font-weight: 600;
+background-color: #ac2569;
+
+&:hover {
+  cursor: pointer;
+  background-color: lighten($color: #ac2569, $amount: 20);
+}
+
+
 }
 
 
