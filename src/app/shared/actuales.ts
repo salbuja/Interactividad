@@ -9,7 +9,9 @@ export const ACTUALES: Actual[] = [
         audios: [{
             title: 'Hirohiko Araki',
             link: 'assets/audios/Hirohiko Araki.mp3'
-        }]
+        }],
+        audio:'assets/audios/Hirohiko Araki.mp3',
+        video:'assets/videos/Hirohiko Araki.mp4'
 
     },
     {
@@ -20,7 +22,9 @@ export const ACTUALES: Actual[] = [
         audios: [
             {title: 'Hideaki Anno',
             link: 'assets/audios/Hideaki Anno.mp3'}
-            ]
+            ],
+            audio:'assets/audios/Hideaki Anno.mp3',
+            video:'assets/videos/Hideaki Anno.mp4'
     },
     {
         id: '2',
@@ -30,6 +34,8 @@ export const ACTUALES: Actual[] = [
         audios: [{
             title: 'Naomi Osaka',
             link: 'assets/audios/Naomi Osaka.mp3'
-        }]
+        }],
+        audio:'assets/audios/Naomi Osaka.mp3',
+        video:'assets/videos/Naomi Osaka.mp4'
     }
 ];

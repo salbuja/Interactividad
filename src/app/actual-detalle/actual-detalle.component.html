@@ -11,8 +11,14 @@
 
 
 
-    <div class="parent marco card1" style="width:30%;background-color: #e3deca;">
-      <img style="width:100%;height:100%;"src={{actual.image}} alt={{actual.name}}>
+    <div class="parent marco card1" style="width:30%;">
+      <video id="myVideo" src={{actual.video}} loop autoplay controls></video>
+      <script>
+        var vid = document.getElementById("myVideo");
+        vid.volume = 0.5;
+        vid.play();
+        </script>
+      <!-- <img style="width:100%;height:100%;"src={{actual.image}} alt={{actual.name}}> -->
     </div>
 
     <div class="parent marco card2" style="left: 40%;height: 10%;width:55%; background-color:#b02568;">
@@ -27,17 +33,19 @@
       </mat-card-content>
     </div>
 
-    <div class="card" class="audio">
-      <!---audio src="https://dl.dropboxusercontent.com/s/9v0psowra7ekhxo/A%20Himitsu%20-%20In%20Love%20%28feat.%20Nori%29.flac?dl=0">
-      </audio--->
-      <mat-card-content>
+    <div style="left: 40%;top: 20%;height: 60%;width:55%;">
+      <!-- <mat-card-content>
       <ngx-audio-player [playlist]="msaapPlaylist" [displayTitle]="msaapDisplayTitle" [autoPlay]="false"
       muted="muted" [displayPlaylist]="msaapDisplayPlayList" [pageSizeOptions]="msaapPageSizeOptions" 
       [displayArtist]="msaapDisplayArtist" [displayDuration]="msaapDisplayDuration"
       [expanded]="false"  [displayVolumeControls]="msaapDisplayVolumeControls" [displayRepeatControls]="msaapDisplayRepeatControls" 
       [disablePositionSlider]="msaapDisablePositionSlider"></ngx-audio-player>      
-    </mat-card-content>
-
+    </mat-card-content> -->
+    <audio controls>
+      
+      <source src= {{actual.audio}} type="audio/mp3" >
+      Your browser does not support the audio tag!
+    </audio>
     </div>
 
       <div class="card" class="card4">

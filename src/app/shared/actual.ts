@@ -6,5 +6,7 @@ export class Actual {
     image: string;
     description: string;
     audios: Audio[];
+    audio: string;
+    video: string;
 }
  
