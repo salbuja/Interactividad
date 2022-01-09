@@ -6,4 +6,8 @@ export class Historico {
     image: string;
     description: string;
     audios: Audio[];
+    audio: string;
+    video: string;
+    QRImage: string;
+    QRlink: string;
 }

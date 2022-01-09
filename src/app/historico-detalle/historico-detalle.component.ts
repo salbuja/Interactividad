@@ -36,7 +36,7 @@ export class HistoricoDetalleComponent implements OnInit {
   ngOnInit(): void {
     const id  = this.route.snapshot.params['id'];
     this.historico = this.historicoservice.getHistorico(id);
-    this.msaapPlaylist=this.historico.audios
+   // this.msaapPlaylist=this.historico.audios
     
   }
 
