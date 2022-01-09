@@ -40,7 +40,7 @@
 }
 
 .main {
-  height: 54%; 
+  height: 55%; 
   align-items: center;
 //  background-size: cover;
  // background-position: center;
@@ -78,14 +78,14 @@
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255,255,255,0.5);
   padding: 0% 1% 0% 1%; 
 //  width: 50%;
 }
 
 audio { 
  // width: 20%; 
-  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   transform: scale(.75);
  // height: 5%;
