@@ -78,7 +78,7 @@
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.3);
   padding: 0% 1% 0% 1%; 
 //  width: 50%;
 }
@@ -88,7 +88,7 @@ audio {
   box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
   border-radius: 30px;
   transform: scale(1.05);
-  height: 5%;
+ // height: 5%;
 }
 
 .titulo {
