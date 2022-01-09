@@ -8,5 +8,7 @@ export class Actual {
     audios: Audio[];
     audio: string;
     video: string;
+    QRImage: string;
+    QRlink: string;
 }
  
